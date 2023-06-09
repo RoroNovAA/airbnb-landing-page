@@ -19,13 +19,28 @@ nav > img {
 }
 
 /* Hero Section */
+
 .grid-container {
+    padding: 50px;
     display: flex;
+    justify-content: center;
     
 }
 
 .grid-container > img {
     width: 700px;
     height: 432px;
-    justify-content: center;
+    
+}
+
+.hero-container > h1 {
+    font-size: 80px;
+    margin: 0 36px 32px 36px;
+}
+
+.hero-container > p {
+    color: #222222;
+    font-size: 25px;
+    max-width: 415px;
+    margin: 16px 36px;
 }
