@@ -6,7 +6,7 @@ export default function Cards(props) {
     return (
         <section className="card-container">
             <div className="card-badge">SOLD OUT</div>
-            <img src={`../Images/${props.img}`}
+            <img src={`.../public/Images/${props.img}`}
                  alt="Zaphares" className="card-img" />
             <div className="card-info">
                 <div className="card-stats">
