@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Cards from "./components/Cards"
 import data from "./data"
 
+
 function App() {
   const cards = data.map(item => {
     return (
@@ -24,7 +25,10 @@ function App() {
     <div className="App">
         <Navbar />
       {/* <Hero /> */}
+      
+      <section className="card-list">
         {cards}
+      </section>
     </div>
   );
 }
