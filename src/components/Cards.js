@@ -8,7 +8,6 @@ export default function Cards(props) {
             <div className="card-badge">SOLD OUT</div>
             <img src={Zaphares}
             alt="Zaphares" className="card-img"/>
-            <div className="card-info">
                 <div className="card-stats">
                     <img src={Star} alt="star" className="star" />
                     <p>{props.rating}</p>
@@ -16,7 +15,6 @@ export default function Cards(props) {
                 </div>
                 <p className="card-title">{props.title}</p>
                 <p><b>From ${props.price}</b> / person</p>
-            </div>
         </section>
     )
 }   

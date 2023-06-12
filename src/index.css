@@ -58,12 +58,12 @@ nav > img {
     height: 270px;
     border-radius: 10px;
 }
-
+/* 
 .card-info {
     margin-top: 6px;
     line-height: 22px;
     
-}
+} */
 
 .card-stats {
     display: flex;
@@ -101,6 +101,5 @@ nav > img {
 /* Card List */
 .card-list {
     display: flex;
-    flex-wrap: wrap;
     
 }
