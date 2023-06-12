@@ -101,4 +101,6 @@ nav > img {
 /* Card List */
 .card-list {
     display: flex;
+    flex-wrap: wrap;
+    
 }
