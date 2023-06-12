@@ -14,9 +14,10 @@ export default function Cards(props) {
                     <p>{props.rating}</p>
                     <p className="grey">({props.reviewCount}) • {props.location}</p>
                 </div>
-                <p>{props.title}</p>
+                {/* <p className="card-title">{props.title}</p> */}
+                <p className="card-title">dfkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
                 <p><b>From ${props.price}</b> / person</p>
             </div>
         </section>
     )
-}
+}   
