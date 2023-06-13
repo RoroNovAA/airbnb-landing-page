@@ -41,7 +41,7 @@ export default [
     }
     ,
     {
-        id: 3,
+        id: 4,
         title: "Group Mountain Biking",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
         price: 50,
@@ -55,7 +55,7 @@ export default [
     }
     ,
     {
-        id: 3,
+        id: 5,
         title: "Group Mountain Biking",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
         price: 50,
