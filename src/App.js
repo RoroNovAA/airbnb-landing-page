@@ -18,17 +18,15 @@ function App() {
            price={item.price}
            openSpots={item.openSpots}
       />
-
     )
   })
   return (
     <div className="App">
         <Navbar />
-      {/* <Hero /> */}
-      
-      <section className="card-list">
-        {cards}
-      </section>
+        <Hero />
+        <section className="card-list">
+          {cards}
+        </section>
     </div>
   );
 }

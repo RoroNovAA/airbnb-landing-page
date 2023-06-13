@@ -6,7 +6,7 @@
 
 /* Navbar */
 nav {
-    width: 100vw;
+    /* width: 100vw; */
     height: 70px;
     padding: 22px 30px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -18,29 +18,28 @@ nav > img {
    height: 25px;
 }
 
-/* Hero Section */
 
+/* Hero Section */
 .grid-container {
     padding: 50px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .grid-container > img {
     width: 700px;
-    height: 432px;   
+    height: 430px;   
 }
 
 .hero-container > h1 {
     font-size: 80px;
-    margin: 0 36px 32px 36px;
+    margin: 0 36px 32px;
 }
 
 .hero-container > p {
     color: #222222;
     font-size: 25px;
-    max-width: 415px;
+    max-width: 700px;
     margin: 16px 36px;
 }
 
@@ -51,6 +50,7 @@ nav > img {
     display: flex;
     flex-direction: column;
     position: relative;
+    gap: 5px;
 }
 
 .card-img {
@@ -58,6 +58,7 @@ nav > img {
     height: 270px;
     border-radius: 10px;
 }
+
 /* 
 .card-info {
     margin-top: 6px;
@@ -101,5 +102,6 @@ nav > img {
 /* Card List */
 .card-list {
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
 }
